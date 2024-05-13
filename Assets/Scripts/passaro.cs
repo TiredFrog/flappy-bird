@@ -5,8 +5,11 @@ using UnityEngine;
 public class passaro : MonoBehaviour
 {
     Rigidbody2D fisica;
+    private float velocidade = 3f;
 
-    private void Awake()
+    private void Awake() 
+   
+
     {
         this.fisica = GetComponent<Rigidbody2D>();
     }
