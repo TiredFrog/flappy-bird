@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2571920752362244145}
   - component: {fileID: 4514354603989108335}
+  - component: {fileID: 7119658605224554244}
   m_Layer: 0
   m_Name: obstaculo
   m_TagString: Untagged
@@ -48,6 +49,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 0.6
   variacaoY: 1.5
+--- !u!50 &7119658605224554244
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307617252428596534}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1585237111618994560
 GameObject:
   m_ObjectHideFlags: 0
